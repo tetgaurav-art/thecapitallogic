@@ -1,1 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strategy | The Capital Logic</title>
+    <meta name="description" content="Business strategy, decision frameworks, and competitive analysis.">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
 
+    <div class="top-bar">
+        <div class="container flex-space-between">
+            <span id="current-date">Loading date...</span>
+            <span class="market-status">MARKETS: <span class="green-text">OPEN</span></span>
+        </div>
+    </div>
+
+    <header class="main-header small-header">
+        <div class="container">
+            <a href="index.html" class="logo">The Capital Logic</a>
+        </div>
+    </header>
+
+    <nav class="navbar">
+        <div class="container">
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="strategy.html" class="active">Strategy</a></li>
+                <li><a href="investing.html">Investing</a></li>
+                <li><a href="frugal.html">Frugal Living</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+            <button class="mobile-menu-btn" onclick="toggleMenu()">☰</button>
+        </div>
+    </nav>
+
+    <section class="category-header">
+        <div class="container">
+            <h1>Strategy & Operations</h1>
+            <p>Frameworks for decision making, competitive advantage, and operational efficiency.</p>
+        </div>
+    </section>
+
+    <main class="container main-grid">
+        
+        <section class="content-column">
+            
+            <article class="hero-post category-hero">
+                <div class="post-image strategy-hero-img"></div>
+                <div class="post-content">
+                    <span class="category-tag">Deep Dive</span>
+                    <h2>The "Blue Ocean" Shift: How to Create Uncontested Market Space</h2>
+                    <p>Why competing is a losing game. A breakdown of how Cirque du Soleil and Uber created entirely new industries instead of fighting for market share.</p>
+                    <a href="#" class="read-more">Read Case Study &rarr;</a>
+                </div>
+            </article>
+
+            <div class="article-grid">
+                <article class="card">
+                    <div class="card-image placeholder-strategy"></div>
+                    <span class="date-meta">Oct 24, 2025</span>
+                    <h3>The 80/20 Rule in Business</h3>
+                    <p>Applying the Pareto Principle to your revenue streams.</p>
+                    <a href="#">Read Analysis</a>
+                </article>
+                <article class="card">
+                    <div class="card-image placeholder-strategy"></div>
+                    <span class="date-meta">Oct 18, 2025</span>
+                    <h3>SWOT Analysis is Dead</h3>
+                    <p>Why modern businesses need "SOAR" analysis instead.</p>
+                    <a href="#">Read Analysis</a>
+                </article>
+                <article class="card">
+                    <div class="card-image placeholder-strategy"></div>
+                    <span class="date-meta">Oct 10, 2025</span>
+                    <h3>Pricing Power</h3>
+                    <p>How to raise prices without losing customers.</p>
+                    <a href="#">Read Analysis</a>
+                </article>
+                <article class="card">
+                    <div class="card-image placeholder-strategy"></div>
+                    <span class="date-meta">Sep 28, 2025</span>
+                    <h3>The First-Mover Myth</h3>
+                    <p>Why being second is often more profitable than being first.</p>
+                    <a href="#">Read Analysis</a>
+                </article>
+            </div>
+        </section>
+
+        <aside class="sidebar">
+            <div class="widget">
+                <h3>Strategy Frameworks</h3>
+                <ul class="category-list">
+                    <li><a href="#">&rsaquo; Game Theory</a></li>
+                    <li><a href="#">&rsaquo; Unit Economics</a></li>
+                    <li><a href="#">&rsaquo; Network Effects</a></li>
+                    <li><a href="#">&rsaquo; Mental Models</a></li>
+                </ul>
+            </div>
+
+            <div class="widget newsletter-widget">
+                <h3>Strategic Insights</h3>
+                <p>Get one actionable business framework in your inbox every Sunday.</p>
+                <input type="email" placeholder="Your email">
+                <button class="btn-primary">Join the List</button>
+            </div>
+        </aside>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 The Capital Logic. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
