@@ -1,1 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Capital Logic | Strategic Finance & Growth</title>
+    <meta name="description" content="Rational decisions for real growth. Expert insights on personal finance, investing, and business strategy.">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
 
+    <div class="top-bar">
+        <div class="container flex-space-between">
+            <span id="current-date">Loading date...</span>
+            <span class="market-status">MARKETS: <span class="green-text">OPEN</span></span>
+        </div>
+    </div>
+
+    <header class="main-header">
+        <div class="container">
+            <a href="/" class="logo">The Capital Logic</a>
+            <p class="tagline">Rational Decisions. Real Growth.</p>
+        </div>
+    </header>
+
+    <nav class="navbar">
+        <div class="container">
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Strategy</a></li>
+                <li><a href="#">Investing</a></li>
+                <li><a href="#">Frugal Living</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+            <button class="mobile-menu-btn" onclick="toggleMenu()">☰</button>
+        </div>
+    </nav>
+
+    <main class="container main-grid">
+        
+        <section class="content-column">
+            
+            <article class="hero-post">
+                <div class="post-image placeholder-hero"></div>
+                <div class="post-content">
+                    <span class="category-tag">Strategy</span>
+                    <h2>The ROI of Deep Work in a Distracted World</h2>
+                    <p>Why focusing for 4 hours is worth more than 8 hours of multitasking. A financial breakdown of productivity.</p>
+                    <a href="#" class="read-more">Read Analysis &rarr;</a>
+                </div>
+            </article>
+
+            <div class="article-grid">
+                <article class="card">
+                    <div class="card-image placeholder-small"></div>
+                    <h3>5 Assets That Beat Inflation</h3>
+                    <p>Historical data on gold, real estate, and equities.</p>
+                    <a href="#">Read More</a>
+                </article>
+                <article class="card">
+                    <div class="card-image placeholder-small"></div>
+                    <h3>The 'Zero-Based' Budget</h3>
+                    <p>How to allocate every dollar with purpose.</p>
+                    <a href="#">Read More</a>
+                </article>
+            </div>
+        </section>
+
+        <aside class="sidebar">
+            <div class="widget newsletter-widget">
+                <h3>The Daily Ledger</h3>
+                <p>Join 5,000+ readers getting smarter about money.</p>
+                <input type="email" placeholder="Your email address">
+                <button class="btn-primary">Subscribe</button>
+            </div>
+            
+            <div class="widget">
+                <h3>Trending Now</h3>
+                <ul class="trending-list">
+                    <li><a href="#">1. How to read a balance sheet</a></li>
+                    <li><a href="#">2. Best high-yield savings accounts</a></li>
+                    <li><a href="#">3. The psychology of spending</a></li>
+                </ul>
+            </div>
+        </aside>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 The Capital Logic. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
