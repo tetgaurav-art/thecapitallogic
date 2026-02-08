@@ -27,11 +27,11 @@
     <nav class="navbar">
         <div class="container">
             <ul class="nav-links">
-                <li><a href="#">Home</a></li>
-                <li><a href="/strategy.html">Strategy</a></li>
-                <li><a href="#">Investing</a></li>
-                <li><a href="#">Frugal Living</a></li>
-                <li><a href="#">About</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="strategy.html">Strategy</a></li>
+                <li><a href="investing.html">Investing</a></li>
+                <li><a href="frugal.html">Frugal Living</a></li>
+                <li><a href="about.html">About</a></li>
             </ul>
             <button class="mobile-menu-btn" onclick="toggleMenu()">☰</button>
         </div>
@@ -39,22 +39,33 @@
 
     <main class="container main-grid">
         
-        <section class="latest-posts-section container">
-    <div class="section-header">
-        <h2>Latest Insights</h2>
-        <div class="filter-buttons">
-            <button class="filter-btn active" onclick="filterPosts('all')">All</button>
-            <button class="filter-btn" onclick="filterPosts('Strategy')">Strategy</button>
-            <button class="filter-btn" onclick="filterPosts('Investing')">Investing</button>
-            <button class="filter-btn" onclick="filterPosts('Frugal Living')">Frugal Living</button>
-        </div>
-    </div>
+        <section class="content-column">
+            
+            <article class="hero-post">
+                <div class="post-image placeholder-hero"></div>
+                <div class="post-content">
+                    <span class="category-tag">Strategy</span>
+                    <h2>The ROI of Deep Work in a Distracted World</h2>
+                    <p>Why focusing for 4 hours is worth more than 8 hours of multitasking. A financial breakdown of productivity.</p>
+                    <a href="#" class="read-more">Read Analysis &rarr;</a>
+                </div>
+            </article>
 
-    <div id="posts-grid" class="posts-grid-4col">
-        </div>
-</section>
-
-        
+            <div class="article-grid">
+                <article class="card">
+                    <div class="card-image placeholder-small"></div>
+                    <h3>5 Assets That Beat Inflation</h3>
+                    <p>Historical data on gold, real estate, and equities.</p>
+                    <a href="#">Read More</a>
+                </article>
+                <article class="card">
+                    <div class="card-image placeholder-small"></div>
+                    <h3>The 'Zero-Based' Budget</h3>
+                    <p>How to allocate every dollar with purpose.</p>
+                    <a href="#">Read More</a>
+                </article>
+            </div>
+        </section>
 
         <aside class="sidebar">
             <div class="widget newsletter-widget">
@@ -76,9 +87,24 @@
 
     </main>
 
+    <section class="latest-posts-section container">
+        <div class="section-header">
+            <h2>Latest Insights</h2>
+            <div class="filter-buttons">
+                <button class="filter-btn active" onclick="filterPosts('all')">All</button>
+                <button class="filter-btn" onclick="filterPosts('Strategy')">Strategy</button>
+                <button class="filter-btn" onclick="filterPosts('Investing')">Investing</button>
+                <button class="filter-btn" onclick="filterPosts('Frugal Living')">Frugal Living</button>
+            </div>
+        </div>
+
+        <div id="posts-grid" class="posts-grid-4col">
+            </div>
+    </section>
+
     <footer>
         <div class="container">
-            <p>&copy; 2024 The Capital Logic. All rights reserved.</p>
+            <p>&copy; 2026 The Capital Logic. All rights reserved.</p>
         </div>
     </footer>
 
